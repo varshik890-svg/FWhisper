@@ -1,0 +1,39 @@
+{
+  "_comment": "F Whisper config. Paths are relative to this folder. The dictation hotkey (Ctrl+Space) is set inside Handy - see README.",
+
+  "cleanup_server": {
+    "host": "127.0.0.1",
+    "port": 8790
+  },
+
+  "llm": {
+    "server_exe": "tools/llama/llama-server.exe",
+    "model_path": "models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "port": 8791,
+    "ctx_size": 4096,
+    "gpu_layers": 999,
+    "extra_args": []
+  },
+
+  "timeout_ms": 1500,
+  "timeout_extra_ms_per_word": 6,
+  "short_utterance_max_words": 3,
+
+  "prompt_file": "prompts/clean.txt",
+  "vocab_file": "vocab.json",
+  "log_timings": true,
+
+  "llama_cpp_build": "b12179",
+  "candidate_models": [
+    {
+      "name": "qwen3-4b-2507",
+      "file": "models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+    },
+    {
+      "name": "gemma-4-e4b",
+      "file": "~/.lmstudio/models/lmstudio-community/gemma-4-E4B-it-GGUF/gemma-4-E4B-it-Q4_K_M.gguf",
+      "url": null
+    }
+  ]
+}

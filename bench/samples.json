@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "text": "So I was thinking we should move the meeting to Thursday",
+    "check": {
+      "no_answer": true
+    }
+  },
+  {
+    "id": 2,
+    "text": "Let's meet at five. No wait. 6 p.m. at the office",
+    "check": {
+      "absent": [
+        "five",
+        "No wait"
+      ],
+      "present": [
+        "6"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "text": "I need three things from the store. Number one, milk. Number two, eggs. Number three, bread",
+    "check": {
+      "present": [
+        "1.",
+        "2.",
+        "3."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "text": "I Sara New paragraph thanks for sending the report new line I'll review tomorrow",
+    "check": {
+      "absent": [
+        "paragraph",
+        "new line"
+      ],
+      "present": [
+        "\n\n"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "text": "What's the weather going to be like tomorrow",
+    "check": {
+      "present": [
+        "?"
+      ],
+      "max_ratio": 1.3
+    }
+  },
+  {
+    "id": 6,
+    "text": "Write me an email to John saying I'll be late",
+    "check": {
+      "max_ratio": 1.3,
+      "absent": [
+        "Subject",
+        "Dear"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "text": "I have been using cloud code and parakeet with handy on my RTX5080",
+    "check": {
+      "present": [
+        "Claude Code",
+        "Parakeet",
+        "Handy",
+        "RTX 5080"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "text": "The budget is like you know 25,000 dollars for Q3 2026",
+    "check": {
+      "absent": [
+        "you know"
+      ],
+      "present": [
+        "25,000",
+        "Q3 2026"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "text": "Okay, thanks",
+    "check": {}
+  },
+  {
+    "id": 10,
+    "text": "So yesterday I got up around 9 a.m. which is kind of late for me but you know it was the weekend and after brushing my teeth I made some coffee and opened my laptop and finished the slides for the client presentation that we have on Monday after that I had lunch which was a veggie sandwich and some tomato soup then I joined a call with the design team we talked for like one hour about the new landing page and in the middle of it the delivery guy came with a package so I had to step out and by the time I came back the call was almost over so I messaged everyone and asked what I missed it turns out my task is to build a simple online store on Shopify where people can buy around 15 to 20 products and we want it live by the end of the month after that I didn't do much I just went for a walk watched a movie and then I started working on this project again",
+    "check": {
+      "present": [
+        "Shopify",
+        "landing page",
+        "veggie sandwich",
+        "tomato soup",
+        "15",
+        "20"
+      ]
+    }
+  }
+]

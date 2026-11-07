@@ -1,0 +1,10 @@
+# downloaded by setup.bat (large)
+models/
+tools/
+
+# local runtime output
+logs/
+bench/results/2*.md
+
+__pycache__/
+*.pyc

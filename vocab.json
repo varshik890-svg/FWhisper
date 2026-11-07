@@ -1,0 +1,26 @@
+{
+  "_comment": "terms: correct spellings the LLM should use. replacements: exact find -> replace rules applied before and after the LLM (case-insensitive, whole words).",
+
+  "terms": [
+    "Claude Code",
+    "Parakeet",
+    "Handy",
+    "RTX 5080",
+    "Shopify",
+    "HTS",
+    "Ollama",
+    "LM Studio",
+    "llama.cpp"
+  ],
+
+  "replacements": {
+    "cloud code": "Claude Code",
+    "RTX5080": "RTX 5080",
+    "Olama": "Ollama",
+    "LMStudios": "LM Studio",
+    "LM studios": "LM Studio",
+    "LMStudio": "LM Studio",
+    "Lama CPP": "llama.cpp",
+    "llama CPP": "llama.cpp"
+  }
+}
